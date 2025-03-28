@@ -1,0 +1,13 @@
+name: research-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - beautifulsoup4
+  - pandas
+  - requests
+  - tqdm
+  - lxml
+  - html5lib
+prefix: /opt/anaconda3/envs/research-env
