@@ -17,7 +17,7 @@ This Python module scrapes high school sports data from [MaxPreps.com](https://w
 ## ️ Installation
 
 ```bash
-pip install requests beautifulsoup4 pandas tqdm
+pip install maxpreps_scraper
 ```
 ##  Functions
 
