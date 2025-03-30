@@ -56,6 +56,12 @@ Scrapes all contests (games) for selected schools by state, sport, and year.
 - Team location details (address, city, state, zipcode)
 - URLs to the MaxPreps pages of both teams
 
+#### Supported Sports and Limitations
+These functions only support the following sports:
+['basketball', 'football', 'baseball', 'soccer', 'volleyball', 'lacrosse', 'softball']
+
+⚠️ Note: Soccer data is only available for the following states:
+['tx', 'la', 'ms', 'hi', 'ca', 'fl', 'az']
 ## Usage and Example Output
 ```
 from scraper import MaxPrepsScraper
