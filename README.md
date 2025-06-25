@@ -64,7 +64,7 @@ These functions only support the following sports:
 ['tx', 'la', 'ms', 'hi', 'ca', 'fl', 'az']
 ## Usage and Example Output
 ```
-from scraper import MaxPrepsScraper
+from maxpreps_scraper.scraper import MaxPrepsScraper
 scraper = MaxPrepsScraper()
 
 # Get Team Rankings
